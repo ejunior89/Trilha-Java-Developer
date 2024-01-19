@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0baa6d28-62dd-4e02-a073-907aabcb1e21" name="Changes" comment="trabalhando com Collections em java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploColecaoNaoModificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploRemoveReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bAb449V72afQWU3NyjZOVWlAjA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExemploColecaoNaoModificavel.executor": "Run",
+    "Application.ExemploCollection.executor": "Run",
+    "Application.ExemploComparator.executor": "Run",
+    "Application.ExemploIteracao.executor": "Run",
+    "Application.ExemploList.executor": "Run",
+    "Application.ExemploMap.executor": "Run",
+    "Application.ExemploOrdenacao.executor": "Run",
+    "Application.ExemploRemoveReplace.executor": "Run",
+    "Application.ExemploSet.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ExemploIteracaoParalela">
+    <configuration name="ExemploColecaoNaoModificavel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploColecaoNaoModificavel" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploComparator" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploIteracaoParalela" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploIteracaoParalela" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploOrdenacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploOrdenacao" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploRemoveReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploRemoveReplace" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExemploIteracaoParalela" />
+        <item itemvalue="Application.ExemploComparator" />
+        <item itemvalue="Application.ExemploRemoveReplace" />
+        <item itemvalue="Application.ExemploColecaoNaoModificavel" />
+        <item itemvalue="Application.ExemploOrdenacao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0baa6d28-62dd-4e02-a073-907aabcb1e21" name="Changes" comment="" />
+      <created>1702815949099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702815949099</updated>
+    </task>
+    <task id="LOCAL-00001" summary="trabalhando com Collections em java">
+      <option name="closed" value="true" />
+      <created>1705662515134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705662515134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="trabalhando com Collections em java">
+      <option name="closed" value="true" />
+      <created>1705662566931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705662566931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="trabalhando com Collections em java">
+      <option name="closed" value="true" />
+      <created>1705662608711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705662608711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trabalhando com Collections em java" />
+    <option name="LAST_COMMIT_MESSAGE" value="trabalhando com Collections em java" />
+  </component>
+</project>
