@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0baa6d28-62dd-4e02-a073-907aabcb1e21" name="Changes" comment="trabalhando com Collections em java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploColecaoNaoModificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploRemoveReplace.java" afterDir="false" />
+    <list default="true" id="0baa6d28-62dd-4e02-a073-907aabcb1e21" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploConversaoListSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovations/ExemploIteracaoSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +22,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ejunior89&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9c36a5b5-9033-45a8-863c-01b0fe2ecfac" />
+        <option name="url" value="https://github.com/ejunior89/Trilha-Java-Developer.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -44,7 +61,10 @@
     "Application.ExemploColecaoNaoModificavel.executor": "Run",
     "Application.ExemploCollection.executor": "Run",
     "Application.ExemploComparator.executor": "Run",
+    "Application.ExemploConversaoListSet.executor": "Run",
     "Application.ExemploIteracao.executor": "Run",
+    "Application.ExemploIteracaoParalela.executor": "Run",
+    "Application.ExemploIteracaoSet.executor": "Run",
     "Application.ExemploList.executor": "Run",
     "Application.ExemploMap.executor": "Run",
     "Application.ExemploOrdenacao.executor": "Run",
@@ -60,9 +80,9 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ExemploIteracaoParalela">
-    <configuration name="ExemploColecaoNaoModificavel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploColecaoNaoModificavel" />
+  <component name="RunManager" selected="Application.ExemploConversaoListSet">
+    <configuration name="ExemploComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploComparator" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploComparator" />
+    <configuration name="ExemploConversaoListSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploConversaoListSet" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploOrdenacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploOrdenacao" />
+    <configuration name="ExemploIteracaoSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovations.ExemploIteracaoSet" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemploConversaoListSet" />
+        <item itemvalue="Application.ExemploIteracaoSet" />
         <item itemvalue="Application.ExemploIteracaoParalela" />
         <item itemvalue="Application.ExemploComparator" />
         <item itemvalue="Application.ExemploRemoveReplace" />
-        <item itemvalue="Application.ExemploColecaoNaoModificavel" />
-        <item itemvalue="Application.ExemploOrdenacao" />
       </list>
     </recent_temporary>
   </component>
@@ -169,15 +189,98 @@
       <option name="project" value="LOCAL" />
       <updated>1705662608711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="trabalhando com Collections em java">
+      <option name="closed" value="true" />
+      <created>1705669572168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669572168</updated>
+    </task>
+    <task id="LOCAL-00005" summary="trabalhando com Collections em java">
+      <option name="closed" value="true" />
+      <created>1705669584533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669584533</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <option name="closed" value="true" />
+      <created>1705669625602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669625602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <option name="closed" value="true" />
+      <created>1705669634472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669634472</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <option name="closed" value="true" />
+      <created>1705669790889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669790889</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <option name="closed" value="true" />
+      <created>1705669801738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669801738</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md">
+      <option name="closed" value="true" />
+      <created>1705669816868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669816868</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -185,6 +288,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trabalhando com Collections em java" />
-    <option name="LAST_COMMIT_MESSAGE" value="trabalhando com Collections em java" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;Collections/.idea/workspace.xml&#10;#&#9;Collections/src/README.md" />
   </component>
 </project>
